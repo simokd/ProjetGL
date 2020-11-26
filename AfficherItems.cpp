@@ -1,18 +1,20 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include "AfficherItems.h"
 
 #define tailleTableau 15
 #define Malloc(type) (type*)malloc(sizeof(type))
 
-typedef struct _item{
+//Pour tester le fichier en utilisant cette branche uniquement, il suffit de rendre les codes en commentaires sans commentaires
+/*typedef struct _structure{
 	   	char* nom;
 	   	char* tel;
 	   	struct _item * suivant;
-	   }item;
+	   }structure;*/
 	   
-	   	void afficherItemsDansIndex(int index, item * HashTable[tailleTableau])
+	   	void afficherItemsDansIndex(int index, structure * HashTable[tailleTableau])
 	{
-		item * it = HashTable[index];
+		structure * it = HashTable[index];
 		if(it == NULL){
 			printf("Pas d'item dans l'indexe %d \n\n", index);		
 		}
