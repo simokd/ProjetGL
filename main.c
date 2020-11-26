@@ -1,3 +1,4 @@
+#include "Main.h"
 int remove_item(hashtable_t* ht, char* k) {
     unsigned int slot = hash_fct(k) % ht->size;
     hash_item_t* item = ht->items[slot];
