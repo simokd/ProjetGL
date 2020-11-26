@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #define taille 100
 #include "Main.h"
+
 typedef struct _structure {
     char* nom;
     char* tel;
