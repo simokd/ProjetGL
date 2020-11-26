@@ -46,6 +46,6 @@ void ajouterItem(char* nom, char* tel, struct _structure HashTable[taille])
         elements->suivant = NULL;
         precedent.suivant=elements;
     }
-   printf("votre enregistrement est bien effectue a l'indexe :%d \n",index);
+   printf("votre enregistrement est bien effectue a l'index :%d \n",index);
 }
 
