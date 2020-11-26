@@ -3,12 +3,12 @@
 #define taille 100
 #include "Main.h"
 
-typedef struct _structure {
+/*typedef struct _structure {
     char* nom;
     char* tel;
     struct _structure* suivant;
 }structure;
-
+*/
 int Index(char *name)
 {
     int i = 0, nombre = 0;
