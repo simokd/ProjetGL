@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "AfficherItems.h"
+#include "main.h"
 
 #define tailleTableau 15
 #define Malloc(type) (type*)malloc(sizeof(type))
