@@ -1,3 +1,4 @@
+#include "Main.h"
 int main(int argc, char *argv[])
 {
 structure tab[taille];
@@ -8,7 +9,7 @@ structure tab[taille];
         tab[i].tel = "vide";
         tab[i].suivant = NULL;
      }
-    ajouterItem("ilyas", "063476671",tab);
+    //ajouterItem("ilyas", "063476671",tab);
     nombreItems(46,tab);
     afficherItemsDansIndex(46,tab);
 
