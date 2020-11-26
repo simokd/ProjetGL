@@ -1,3 +1,4 @@
+#include "Main.h"
 int nombreItems(int index,struct _structure HashTable[taille]){
     int count = 1;
     structure *elements = HashTable[index].suivant;
