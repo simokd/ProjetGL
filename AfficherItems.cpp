@@ -9,7 +9,7 @@
 /*typedef struct _structure{
 	   	char* nom;
 	   	char* tel;
-	   	struct _item * suivant;
+	   	struct _structure * suivant;
 	   }structure;*/
 	   
 	   	void afficherItemsDansIndex(int index, structure * HashTable[tailleTableau])
@@ -31,11 +31,11 @@
 		}
 		}
 	   
-/*	main()
+/*	void main()
 	{
-	item * HashTable[tailleTableau] = {NULL};
-	item *it1,*it2,*it3;
-	it1 = Malloc(item); it2 = Malloc(item); it3 = Malloc(item);
+	structure * HashTable[tailleTableau] = {NULL};
+	structure *it1,*it2,*it3;
+	it1 = Malloc(structure); it2 = Malloc(structure); it3 = Malloc(structure);
 	it1 -> nom = "Hamid Ennasiri" ;
 	it1 -> tel = "0650525358" ;
 	it1 -> suivant = it2 ;
