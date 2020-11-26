@@ -4,18 +4,20 @@
 #define tailleTableau 15
 #define Malloc(type) (type*)malloc(sizeof(type))
 
-typedef struct _item{
+//Pour tester ce code en utilisant cette branche uniquement, il suffit d'enlever les commentaires pour les codes
+
+/*typedef struct _structure{
 	   	char* nom;
 	   	char* tel;
-	   	struct _item * suivant;
-	   }item;
-	   
+	   	struct _structure * suivant;
+	   }structure
+*/	   
 		
-		void chercherItem(char* nom, item * HashTable[tailleTableau])
+		void chercherItem(char* nom, structure * HashTable[tailleTableau])
 	{  
 		bool Trouver = false;
 		int index;
-		item * it;
+		structure * it;
 		for(index=0 ; index<tailleTableau ; index++){
 			it = HashTable[index];
 			if(it != NULL){
@@ -37,11 +39,11 @@ typedef struct _item{
 		}
 		}
 	   
-/*	main()
+/*  void main()
 	{
-	item * HashTable[tailleTableau] = {NULL};
-	item *it1,*it2,*it3;
-	it1 = Malloc(item); it2 = Malloc(item); it3 = Malloc(item);
+	structure * HashTable[tailleTableau] = {NULL};
+	structure *it1,*it2,*it3;
+	it1 = Malloc(structure); it2 = Malloc(structure); it3 = Malloc(structure);
 	it1 -> nom = "Hamid Ennasiri" ;
 	it1 -> tel = "0650525358" ;
 	it1 -> suivant = it2 ;
