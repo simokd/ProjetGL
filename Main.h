@@ -1,6 +1,7 @@
 #ifndef Main_H
 #define Main_H
 
+#declaration de  notre structure
 typedef struct _structure {
     char* nom;
     char* tel;
