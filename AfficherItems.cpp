@@ -31,7 +31,7 @@ typedef struct _item{
 	   
 /*	main()
 	{
-	item * HashTable[tailleTableau];
+	item * HashTable[tailleTableau] = {NULL};
 	item *it1,*it2,*it3;
 	it1 = Malloc(item); it2 = Malloc(item); it3 = Malloc(item);
 	it1 -> nom = "Hamid Ennasiri" ;
